@@ -9,19 +9,19 @@ import UIKit
 // QuarterValue quarter
 // (CGFloat.pi) half
 // start angle start from bottom left to end angle value
-class CircleProgress: UIView {
-    static var  QuarterValue:CGFloat=(CGFloat.pi/2);
-    static var  HalfQuarterValue:CGFloat=(QuarterValue/2);
-    static var  HalfValue:CGFloat=CGFloat.pi
-    static var  FullValue:CGFloat=2*CGFloat.pi
+open class CircleProgress: UIView {
+    public static var  QuarterValue:CGFloat=(CGFloat.pi/2);
+    public static var  HalfQuarterValue:CGFloat=(QuarterValue/2);
+    public static var  HalfValue:CGFloat=CGFloat.pi
+    public static var  FullValue:CGFloat=2*CGFloat.pi
     private static var animationDuration:TimeInterval = 1;
     private static var clockwise:Bool = true;
     
-    struct ProgressAngleValue{
+    public struct ProgressAngleValue{
         var startAngle:CGFloat=0
         var endAngle:CGFloat=0
     }
-    enum Angle {
+    public enum Angle {
         case threeQuarterTopSpace
         case threeQuarterBottomSpace
         case threeQuarterLeftSpace
@@ -138,16 +138,16 @@ class CircleProgress: UIView {
     }
     open var angle:Angle = .full;
     
-    let partialTrackLayer = CAShapeLayer()
-    let fullTrackLayer = CAShapeLayer()
+    private let partialTrackLayer = CAShapeLayer()
+    private let fullTrackLayer = CAShapeLayer()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews();
         xibSetup()
     }

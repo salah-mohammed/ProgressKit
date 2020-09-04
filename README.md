@@ -94,11 +94,6 @@ NavigationManager.shared.defaultData = NavigationData.init(NavigationManager.Nav
  ```
 # Configure Successfully
 
-# You can refresh navigation style by 
-```swift
-(self.navigationController as? MainNavigationController)?.refrehNavigationData();
- ```
-
 ## License
 
 ProgressKit is released under the MIT license. [See LICENSE](https://github.com/salah-mohammed/ProgressKit/blob/master/LICENSE) for details.

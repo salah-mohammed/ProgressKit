@@ -20,6 +20,10 @@ open class CircleProgress: UIView {
     public struct ProgressAngleValue{
         var startAngle:CGFloat=0
         var endAngle:CGFloat=0
+       public init( startAngle:CGFloat, endAngle:CGFloat) {
+            self.startAngle=startAngle;
+            self.endAngle=endAngle;
+        }
     }
     public enum Angle {
         case threeQuarterTopSpace

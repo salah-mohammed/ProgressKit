@@ -22,8 +22,12 @@ class ProgressCollectionViewCell: UICollectionViewCell {
         self.viewCircleProgress.fullTrackWidth=object.fullTrackWidth ?? 0
         self.viewCircleProgress.partialTrackWidth=object.partialTrackWidth ?? 0
         self.viewCircleProgress.angle=object.angle ?? .full
-        self.viewCircleProgress.durationValue=object.durationValue
         
-            self.viewCircleProgress.value=object.value ?? 0
+        self.viewCircleProgress.fullTrackShapeLayerLineCap=object.trackShape
+        self.viewCircleProgress.partialTrackShapeLayerLineCap=object.trackShape 
+
+        
+        self.viewCircleProgress.durationValue=object.durationValue
+        self.viewCircleProgress.value=object.value ?? 0
     }
 }

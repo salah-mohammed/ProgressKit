@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ProgressKit:
-    :commit: bae507c8ce5865c505b8779625eb1dff3d9b80f5
+    :commit: 6030ecebef966d77f6ff866a2733ab07e1068b5f
     :git: https://github.com/salah-mohammed/ProgressKit.git
 
 SPEC CHECKSUMS:

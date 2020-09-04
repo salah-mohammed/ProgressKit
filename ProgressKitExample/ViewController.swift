@@ -62,7 +62,7 @@ class ViewController: UIViewController {
                 ProgressITem.init(UIColor.lightGray,UIColor.red,10,.leftHalf,.round,50),
                 ProgressITem.init(UIColor.lightGray,UIColor.red,10,.topHalf,.square,50),
                 ProgressITem.init(UIColor.lightGray,UIColor.red,10,.bottomHalf,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.custom(value:CircleProgress.ProgressAngleValue.init(startAngle:0, endAngle:45)),.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.custom(value:CircleProgress.ProgressAngleValue.init(startAngle:0, endAngle:CircleProgress.QuarterValue)),.round,50),
 
         ];
     }

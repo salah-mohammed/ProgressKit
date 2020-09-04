@@ -157,6 +157,9 @@ open class CircleProgress: UIView {
         super.layoutSubviews();
         xibSetup()
     }
+    public func refreshViews(){
+        self.xibSetup();
+    }
     func xibSetup(){
         if self.layer.sublayers?.count ?? 0 > 0 {
             self.partialTrackLayer.removeAllAnimations();

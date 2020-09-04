@@ -7,11 +7,9 @@
 
 ProgressKit used for make threat with screen that have differents navigation bar style, make change style of bar easy.
 # Advantages
-* set Background Image for navigation bar and title color for every single screen.
-* set color for navigation bar and their title for every single screen.
-* Hide navigation bar feature for every single screen.
-* can make navigation bar color transparent for every single screen.
-* can set default navigation bar style if Viewcontroller not implement NavigationDelegate will take this default style.
+* You Can use Round Track and Square Track .
+* You Can set prepared Angle Of Circle Progress and can choose your custom angle .
+
 
 # How used (configuration): 
 # Pod install

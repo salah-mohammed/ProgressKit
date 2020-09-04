@@ -17,14 +17,10 @@ ProgressKit used for make threat with screen that have differents navigation bar
 pod 'ProgressKit',:git => "https://github.com/salah-mohammed/ProgressKit.git"
  
 ```
-- First
-
-add view in viewController in storyboard and make it inherets from CircleProgress
+- First , add view in viewController in storyboard and make it inherets from CircleProgress
 
 
-- Second
-
-if you want set Navigation bar transparent and change title color .
+- Second , then add this code for change Circle Progress properties  .
 ```swift
 
         self.viewCircleProgress.fullTrackColor=UIColor.lightGray

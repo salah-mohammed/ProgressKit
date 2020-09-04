@@ -98,6 +98,8 @@ NavigationManager.shared.defaultData = NavigationData.init(NavigationManager.Nav
 ```swift
 (self.navigationController as? MainNavigationController)?.refrehNavigationData();
  ```
+## License
+
 ProgressKit is released under the MIT license. [See LICENSE](https://github.com/salah-mohammed/ProgressKit/blob/master/LICENSE) for details.
 
 # Developer's information to communicate

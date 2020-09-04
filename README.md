@@ -20,15 +20,18 @@ pod 'ProgressKit',:git => "https://github.com/salah-mohammed/ProgressKit.git"
 - First
 
 ```swift
-public class MainNavigationController: NavigationController {
+        self.viewCircleProgress.fullTrackColor=UIColor.lightGray
+        self.viewCircleProgress.partialTrackColor = UIColor.red
+        self.viewCircleProgress.fullTrackWidth=13
+        self.viewCircleProgress.partialTrackWidth=13
+        self.viewCircleProgress.angle = .full
+        
+        self.viewCircleProgress.fullTrackShapeLayerLineCap = .round
+        self.viewCircleProgress.partialTrackShapeLayerLineCap = .round
 
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        NavigationManager.shared.navigationController=self;
-        // Do any additional setup after loading the view.
-    }
-    
-}
+        
+        self.viewCircleProgress.durationValue=300
+        self.viewCircleProgress.value=50 ?? 0
 ```
 - Second
 
@@ -71,25 +74,6 @@ if you want to hide Navigation bar.
 }
  ```
 
-if you want to set background image for Navigation bar and set title color for it.
-
- ```swift
- class ForthViewController: UIViewController,NavigationDelegate {
-
-    var navigationData: NavigationData=NavigationData.init(NavigationManager.NavigationStyle.custom(NavigationManager.BarColor.backgroundImage(UIImage.init(named:"navigationImage")!), titleColor: UIColor.white))
-    
-        public override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-}
- ```
-- Thired
-
-if you want to set default style 'if Viewcontroller not implement NavigationInfoDelegate'
-```swift
-NavigationManager.shared.defaultData = NavigationData.init(NavigationManager.NavigationStyle.custom(NavigationManager.BarColor.customColor(UIColor.blue), titleColor:  UIColor.white))
-
- ```
 # Configure Successfully
 
 ## License

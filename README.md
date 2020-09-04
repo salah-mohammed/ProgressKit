@@ -5,7 +5,7 @@
 # ProgressKit
 
 
-ProgressKit used for make threatment with ProgressView is more easy and more effient and there is alot of new properties that you can change it to Matches the design.
+ProgressKit used for make threatment with Circle Progress  is more easy and more effient and there is alot of new properties that you can change it to Matches the design.
 # Advantages
 * You Can use Round Track and Square Track .
 * You Can set prepared Angle Of Circle Progress and can choose your custom angle .

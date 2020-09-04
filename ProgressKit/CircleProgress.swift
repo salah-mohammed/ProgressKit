@@ -94,7 +94,9 @@ open class CircleProgress: UIView {
     open var value:TimeInterval{
         set{
             self.currentValue = newValue;
-            self.setAnimation(currentValue: currentValue, durationValue: self.durationValue, animationDuration: CircleProgress.animationDuration);
+            DispatchQueue.main.async {
+                self.setAnimation(currentValue: self.currentValue, durationValue: self.durationValue, animationDuration: CircleProgress.animationDuration);
+            }
         }get{
             return self.currentValue;
         }

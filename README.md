@@ -1,6 +1,6 @@
 # Result
 
-![alt text](https://github.com/salah-mohammed/NavigationKit/blob/master/NavigationKitExample/example.gif)
+![alt text](https://github.com/salah-mohammed/ProgressKit/blob/master/ProgressKitExample/example.png)
 
 # ProgressKit
 

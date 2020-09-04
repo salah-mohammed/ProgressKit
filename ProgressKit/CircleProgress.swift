@@ -164,6 +164,8 @@ open class CircleProgress: UIView {
         if self.layer.sublayers?.count ?? 0 > 0 {
             self.partialTrackLayer.removeAllAnimations();
             self.partialTrackLayer.removeFromSuperlayer();
+            self.fullTrackLayer.removeAllAnimations();
+            self.fullTrackLayer.removeFromSuperlayer();
             self.layer.sublayers?.popLast();
         }
         // create my fullTrackLayer layer

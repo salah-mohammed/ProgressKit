@@ -98,7 +98,7 @@ NavigationManager.shared.defaultData = NavigationData.init(NavigationManager.Nav
 ```swift
 (self.navigationController as? MainNavigationController)?.refrehNavigationData();
  ```
-ProgressKit is released under the MIT license. [See LICENSE](https://github.com/Alamofire/Alamofire/blob/master/LICENSE) for details.
+ProgressKit is released under the MIT license. [See LICENSE](https://github.com/salah-mohammed/ProgressKit/blob/master/LICENSE) for details.
 
 # Developer's information to communicate
 

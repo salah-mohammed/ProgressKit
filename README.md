@@ -49,3 +49,5 @@ ProgressKit is released under the MIT license. [See LICENSE](https://github.com/
 
 - salah.mohamed_1995@hotmail.com
 - https://www.facebook.com/salah.shaker.7
+- +972597105861 (whatApp)
+

@@ -1,21 +1,3 @@
-PODS:
-  - ProgressKit (0.0.1)
+PODFILE CHECKSUM: 109d299b471ffded3638a734f1f266a7287c13e9
 
-DEPENDENCIES:
-  - ProgressKit (from `https://github.com/salah-mohammed/ProgressKit.git`)
-
-EXTERNAL SOURCES:
-  ProgressKit:
-    :git: https://github.com/salah-mohammed/ProgressKit.git
-
-CHECKOUT OPTIONS:
-  ProgressKit:
-    :commit: faf442bfc2e067bfd0a84658765bfdcc4106707d
-    :git: https://github.com/salah-mohammed/ProgressKit.git
-
-SPEC CHECKSUMS:
-  ProgressKit: 4f4913578a7a45823852eda53c63d9ba106ff0c8
-
-PODFILE CHECKSUM: a6d22bec51ede927498232417170f7732076d294
-
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0

@@ -31,6 +31,7 @@ class ProgressITem:NSObject{
         self.fullTrackWidth=fullTrackWidth
         self.partialTrackWidth=partialTrackWidth
         self.angle=angle
+        self.trackShape=trackShape;
         self.value=value;
     }
     
@@ -45,24 +46,24 @@ class ProgressITem:NSObject{
 }
 class ViewController: UIViewController {
     var dataSet:[ProgressITem]{
-        return [ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterTopSpace,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterBottomSpace,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterLeftSpace,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterRightSpace,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterTopRightSpace,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterTopLeftSpace,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterBottomRightSpace,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.threeQuarterBottomLeftSpace,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.topRightQuarter,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.topLeftQuarter,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.bottomRightQuarter,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.bottomLeftQuarter,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.full,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.rightHalf,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.leftHalf,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.topHalf,.square,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.bottomHalf,.round,50),
-                ProgressITem.init(UIColor.lightGray,UIColor.red,10,.custom(value:CircleProgress.ProgressAngleValue.init(startAngle:0, endAngle:CircleProgress.QuarterValue)),.round,50),
+        return [ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterTopSpace,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterBottomSpace,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterLeftSpace,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterRightSpace,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterTopRightSpace,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterTopLeftSpace,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterBottomRightSpace,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.threeQuarterBottomLeftSpace,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.topRightQuarter,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.topLeftQuarter,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.bottomRightQuarter,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.bottomLeftQuarter,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.full,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.rightHalf,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.leftHalf,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.topHalf,.square,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.bottomHalf,.round,50),
+                ProgressITem.init(UIColor.lightGray,UIColor.red,13,.custom(value:CircleProgress.ProgressAngleValue.init(startAngle:0, endAngle:CircleProgress.QuarterValue)),.round,50),
 
         ];
     }

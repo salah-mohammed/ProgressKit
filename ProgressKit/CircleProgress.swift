@@ -74,7 +74,7 @@ open class CircleProgress: UIView {
             case .topRightQuarter:
                 return ProgressAngleValue.init(startAngle:0, endAngle:QuarterValue)
             case .full:
-                return ProgressAngleValue.init(startAngle: -QuarterValue, endAngle: FullValue)
+                return ProgressAngleValue.init(startAngle: -QuarterValue, endAngle: FullValue-QuarterValue)
             case .rightHalf:
                 return ProgressAngleValue.init(startAngle: -QuarterValue, endAngle:QuarterValue)
             case .leftHalf:

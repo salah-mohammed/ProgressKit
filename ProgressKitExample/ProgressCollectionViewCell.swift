@@ -29,6 +29,5 @@ class ProgressCollectionViewCell: UICollectionViewCell {
         
         self.viewCircleProgress.durationValue=object.durationValue
         self.viewCircleProgress.value=object.value ?? 0
-        self.viewCircleProgress.refreshViews();
     }
 }

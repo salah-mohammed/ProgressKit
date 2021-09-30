@@ -14,5 +14,4 @@ target 'ProgressKitExample' do
   use_frameworks!
 
   # Pods for ProgressKitExample
-pod 'ProgressKit',:git => "https://github.com/salah-mohammed/ProgressKit.git"
 end
